@@ -1,65 +1,37 @@
-.item {
-    font-size: 20px;
-    font-weight: 800;
-    margin: 10px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
-.corazul {
-    color: orange;
+.base {
+    background-color: #0066ff;
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: roboto, sans-serif;
 }
 .logo {
-    width: 300px;
+    width: 200px;
+    padding: 8px 0px 0px 12px;
 }
-.titulo {
-    text-align: center;
-    border: 3px solid black;
-    padding: 35px 35px 35px 35px;
+.sobre li {
+    display: inline;
+    margin: 0 8px;
+    font-weight: 600;
+    cursor: pointer;
 }
-.corlaranja {
-    color: orange;
+@media(max-width: 376px){
+    .base{
+        flex-direction: column;
+    }
 }
-.h2 {
-    margin: 10px 10px 10px 170px;
+.img {
+    width: 1000px;
+    display: block;
+    margin: 0px 0px 0px 125px;
 }
-.botao {
-    margin-top: 10px 200px 100px 100px;
-    padding: 10px 10px 10px 10px;
-}
-.senha1 {
-    margin: 10px 10px 10px 10px;
-}
-.senha2 {
-    margin: 10px 10px 10px 10px;
-}
-
-.buycurso {
-    margin: -50px 10px 50px 240px;
-}
-.oi1 {
-    margin: 10px 150px 10px 150px;
-    border: 4px solid black;
-    padding: 3px 3px 40px 3px;
-}
-.oi2 {
-    margin: 10px 150px 10px 10px;
-    border: 4px solid black;
-    padding: 3px 3px 40px 3px;
-}
-.oi3 {
-    margin: 30px 60px 10px 150px;
-    border: 4px solid black;
-    padding: 3px 3px 40px 3px;
-}
-.oi4 {
-    margin: 30px 100px 10px 100px;
-    border: 4px solid black;
-    padding: 3px 3px 40px 3px;
-}
-.buycurso2 {
-    margin: -75px 10px 10px 725px;
-}
-.buycurso3 {
-    margin: -425px 10px 500px 240px;
-}
-.buycurso4 {
-    margin: -525px 10px 500px 720px;
+.h1 {
+    font-weight: 200px;
+    margin-left: 370px;
 }
